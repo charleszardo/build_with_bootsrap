@@ -7,6 +7,12 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <div class="sidebar">
+      <ul class="nav nav-pills">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
 
     <% if signed_in? %>
     <ul>
@@ -31,7 +37,8 @@
     </ul>
     <% end %>
 
-    <%= yield %>
-
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
