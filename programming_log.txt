@@ -1,3 +1,14 @@
+things to fix:
+
+use parent instead of $(".form-group-name")
+
+change if else statement that have if (!    )
+
+placeholder="user@aol.org"
+
+
+
+
 
 helpful links:
 
@@ -24,3 +35,12 @@ http://getbootstrap.com/css/#forms
 google: jquery success validation class
 
 
+http://stackoverflow.com/questions/15247104/jquery-validation-plugin-adding-a-success-class-to-another-element
+
+http://api.jquery.com/parent/
+
+http://stackoverflow.com/questions/1854556/check-if-inputs-are-empty-using-jquery
+
+http://api.jquery.com/event.preventdefault/
+
+google: disable button jquery
