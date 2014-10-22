@@ -44,3 +44,11 @@ http://stackoverflow.com/questions/1854556/check-if-inputs-are-empty-using-jquer
 http://api.jquery.com/event.preventdefault/
 
 google: disable button jquery
+
+http://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-align-properly
+
+
+http://stackoverflow.com/questions/18559682/twitter-bootstrap-carousel-grey-bars
+
+
+http://www.w3schools.com/css/css_padding.asp
