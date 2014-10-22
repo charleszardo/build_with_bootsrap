@@ -16,13 +16,25 @@
 //= require bootstrap
 
 $(document).ready(function(){
-$("#contact-target").on("click", function() {
+$("#contact-target").on("click", function(event) {
+  event.preventDefault();
   //start by clearing any validation classes from inputs
-  $("#form-group").removeClass()
+  $(".form-group").removeClass("has-error");
+  $(".form-group").removeClass("has-success");
+  $(".form-group").removeClass("alert alert-danger");
+  $(".form-group").removeClass("alert alert-success");
+  $(".form-group").removeAttr("role","alert");
 
-  $(".error").removeClass("error");
+  if( !$(".form-control").val() ) {
+    $(this).parent().addClass("has-error");
+    $(this).parent().addClass("alert alert-danger");
+    $(this).parent().attr("role","alert");
+  } else {
+    $(this).parent().addClass("has-success");
+    $(this).parent().addClass("alert alert-success");
+    $(this).parent().attr("role","alert");
+  }
 
-  alert( "Handler for .click() called." );
 });
 
 });

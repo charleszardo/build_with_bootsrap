@@ -4,3 +4,23 @@ helpful links:
 http://getbootstrap.com/components/
 
 http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
+
+http://stackoverflow.com/questions/1854556/check-if-inputs-are-empty-using-jquery
+
+http://stackoverflow.com/questions/1457713/jquery-javascript-alert-if-all-fields-are-not-completed
+
+
+http://stackoverflow.com/questions/15247104/jquery-validation-plugin-adding-a-success-class-to-another-element
+
+http://api.jquery.com/blur/
+
+google: click handler (using jQuery
+
+
+
+http://getbootstrap.com/css/#forms
+
+
+google: jquery success validation class
+
+
