@@ -14,3 +14,15 @@
 //= require jquery_ujs
 //= require_tree .
 //= require bootstrap
+
+$(document).ready(function(){
+$("#contact-target").on("click", function() {
+  //start by clearing any validation classes from inputs
+  $("#form-group").removeClass()
+
+  $(".error").removeClass("error");
+
+  alert( "Handler for .click() called." );
+});
+
+});

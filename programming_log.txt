@@ -2,3 +2,5 @@
 helpful links:
 
 http://getbootstrap.com/components/
+
+http://stackoverflow.com/questions/4479233/static-pages-in-ruby-on-rails
