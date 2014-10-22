@@ -1,1 +1,53 @@
 <h1>Home</h1>
+
+<div class="row">
+  <div class="col-xs-12 col-xs-offset">
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag("slider1.jpg", height: '500px', width: '800px') %>
+          <div class="carousel-caption">
+            Super cool cat
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("slider2.jpg", height: '500px', width: '800px') %>
+          <div class="carousel-caption">
+            HELLOCAT1
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("slider3.jpg", height: '500px', width: '800px') %>
+          <div class="carousel-caption">
+            HELLOCAT2
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("slider4.jpg", height: '500px', width: '800px') %>
+          <div class="carousel-caption">
+            HELLOCAT3
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+  </div>
+</div>
