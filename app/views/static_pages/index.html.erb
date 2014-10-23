@@ -1,4 +1,19 @@
-<h1>Home</h1>
+<div class="row">
+  <div class="col-xs-10">
+    <h1>Our Site</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="panel panel-default col-md-2 fix-me">
+    <div class="panel-body bootstrap-demo-sidebar navbar-default">
+      <ul class="nav navbar-nav">
+        <li><a href="#header1">Heady 1</a></li>
+        <li><a href="#header2">Heady 2</a></li>
+        <li><a href="#header3">Heady 3</a></li>
+      </ul>
+    </div>
+  </div>
 
 <div class="row">
   <div class="col-xs-12 col-xs-offset">
@@ -63,3 +78,12 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <a href="#" data-toggle="tooltip" title="LABORIS" class="mySelector">laboris</a> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a href="#" data-toggle="tooltip" title="MORE MORE MORE" class="mySelector">Excepteur sint occaecat cupidatat</a> non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 </div>
+
+<script>
+$(document).ready(function(){
+
+  $(".mySelector").tooltip();
+
+});
+
+</script>
